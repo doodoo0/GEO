@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>胡增瑞律师 — 启动前确认</title>
+<style>
+  :root {
+    --bg: #fcfaf6; --card: #ffffff;
+    --text: #2c2416; --muted: #8b8068; --accent: #495f5f;
+    --rule: #d9d3c6; --font: "Source Han Serif SC", "Songti SC", Georgia, serif;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: var(--font); background: var(--bg); color: var(--text); font-size: 16px; line-height: 1.8; -webkit-font-smoothing: antialiased; display:flex; justify-content:center; align-items:center; min-height:100vh; padding: 24px; }
+  .card { background: var(--card); border-radius: 4px; max-width: 640px; width:100%; padding: 48px 40px; border: 1px solid var(--rule); }
+  h1 { font-family: Georgia, serif; font-size: 22px; font-weight: 400; text-align: center; color: var(--accent); margin-bottom: 6px; letter-spacing: 0.03em; }
+  .sub { text-align: center; font-size: 13px; color: var(--muted); margin-bottom: 36px; }
+  .q { margin: 28px 0; border-bottom: 1px solid var(--rule); padding-bottom: 20px; }
+  .q:last-child { border-bottom: none; }
+  .q-num { font-family: Georgia, serif; font-size: 13px; color: var(--accent); margin-bottom: 6px; font-weight: 600; }
+  .q-text { font-size: 15px; color: var(--text); margin-bottom: 8px; line-height: 1.7; }
+  .q-hint { font-size: 13px; color: var(--muted); font-style: italic; }
+  .q-options { display: flex; gap: 24px; margin-top: 10px; }
+  .q-options label { font-size: 14px; color: var(--text); cursor: pointer; }
+  .q-options input { margin-right: 6px; accent-color: var(--accent); }
+  .footer { text-align: center; margin-top: 36px; font-size: 12px; color: var(--muted); letter-spacing: 0.04em; }
+  @media (max-width: 600px) { .card { padding: 32px 24px; } }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>胡增瑞律师 · GEO 启动前确认</h1>
+  <div class="sub">以下事项请在会议前确认，以便我们制定最终执行排期</div>
+
+  <div class="q">
+    <div class="q-num">问题一</div>
+    <div class="q-text">法德东恒官网/公众号：我们是否获得授权代为更新您的律师介绍及发布团队官宣内容？</div>
+    <div class="q-hint">涉及官网律师页信息更新、公众号团队介绍发布等</div>
+    <div class="q-options">
+      <label><input type="radio" name="q1" value="yes"> 是，已获得授权</label>
+      <label><input type="radio" name="q1" value="no"> 否，需进一步协调</label>
+    </div>
+  </div>
+
+  <div class="q">
+    <div class="q-num">问题二</div>
+    <div class="q-text">微信公众号「刑事研究中心」：我们是否获得授权代为发布优化文章？</div>
+    <div class="q-hint">若不可操作，我们将以网易号/头条号/百家号/搜狐号作为核心发布渠道</div>
+    <div class="q-options">
+      <label><input type="radio" name="q2" value="yes"> 是，可授权发布</label>
+      <label><input type="radio" name="q2" value="no"> 否，暂不操作公众号</label>
+    </div>
+  </div>
+
+  <div class="q">
+    <div class="q-num">问题三</div>
+    <div class="q-text">律图网、华律网、法律快车网、找法网是否已有您的律师主页？</div>
+    <div class="q-hint">如有，请提供账号密码以便我们统一更新为法德东恒（上海）执业信息</div>
+    <div class="q-options">
+      <label><input type="radio" name="q3" value="yes"> 已有，可提供</label>
+      <label><input type="radio" name="q3" value="no"> 尚未入驻，需新建</label>
+      <label><input type="radio" name="q3" value="partial"> 部分已有，部分未入驻</label>
+    </div>
+  </div>
+
+  <div class="q">
+    <div class="q-num">问题四</div>
+    <div class="q-text">您是否知悉并接受——所有 GEO 文章不得包含虚假战绩、虚构案例、绝对化胜诉承诺（如「包赢」「保证缓刑」「胜诉率100%」）？</div>
+    <div class="q-hint">根据律师法及广告合规要求，全部内容发布前由我方内部审核；数量较多无法逐篇确认，是否可接受内部审核替代？</div>
+    <div class="q-options">
+      <label><input type="radio" name="q4" value="yes"> 知悉并接受，内部审核即可</label>
+      <label><input type="radio" name="q4" value="review"> 接受但关键案例需确认</label>
+    </div>
+  </div>
+
+  <div class="footer">胡增瑞律师 × 泽良律师事务所</div>
+</div>
+</body>
+</html>
